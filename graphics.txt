@@ -1,0 +1,31 @@
+a)
+O gráfico escolhido foi o de barra vertical, trazendo a soma do número de reviews no eixo Y e os bairros no eixo X. 
+Por ser um gráfico mais comum e popular, nossos olhos lêem bem este tipo de gráfico. Baseando a análise no extremo 
+da barra, facilmente identificamos a maior categoria, a menor e a diferença incremental entre elas.
+
+As cores separam os dados por distrito (neighbourhood_group), facilitando a diferenciação. Além disso,
+foram escolhidas por se contrastarem, tornando mais acessível o gráfico, evitando a confusão por pessoas portadoras
+da doença discromatopsia, que no seu tipo mais frequente, não é possível a diferenciação entre verde e vermelho.
+
+Além disso, os valores de cada barra foram inseridos internamente, facilitando a comparação não só por 
+nível, mas por valor também.
+
+b) O gráfico escolhido foi o de barra vertical, agregado lateralmente, por trazer uma facilidade na leitura dos dados, já que o requisito
+é uma comparação entre valores. Assim, fica fácil identificar a diferença entre as barras, que aumentam linearmente.
+Mantive os valores acima da barra para ficar fácil ver numericamente a diferença entre as barras.
+
+Quando analisado a métrica (média de noite por tipo de quarto) é identificado uma desigualdade entre os distritos.
+Sendo assim, separei a métrica pela coluna neighbourhood_group.
+
+As cores distinguem os valores únicos da tabela room_type. Foram escolhidas por se contrastarem e tornar
+o gráfico mais acessível, evitando a confusão das cores por pessoas portadoras da doença discromatopsia.
+
+
+d) Como os dados estão limitados à duas colunas, não abrindo margem de comparação com outros elementos, optei
+por exibir a evolução dos reviews por mês em formato de tendência. Deste modo, preferi utilizar o gráfico
+de linhas, que nos permite analisar temporalmente a evolução dos reviews. Além de ser um gráfico comum
+e de fácil interpretação.
+
+As legendas indicam as colunas que estamos representando em cada eixo. Escolhi uma cor mais neutra, que
+representa a linha e os pontos, para não tirar o foco do usuário de qual informação ele deve analisar. Nesta
+visualização, deixei as demarcações dos intervalos (limite dos dados) do eixo Y para nortear a análise.  
